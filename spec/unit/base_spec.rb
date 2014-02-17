@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe Titanfall do
+describe Titanfall::Base do
 
   context "Respawn folder path" do
     it "resolves the default path" do
