@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.date          = '2014-02-15'
   spec.authors       = ['Rex Feng']
   spec.email         = ['rexfeng@gmail.com']
-  spec.description   = 'titanfall gem'
+  spec.description   = 'titanfall helper gem'
   spec.summary       = 'titanfall gem'
   spec.homepage      = 'https://github.com/xta/titanfall'
   spec.license       = 'MIT'
