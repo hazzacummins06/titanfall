@@ -15,10 +15,10 @@ In your ruby file
     require 'titanfall
     t = Titanfall.new
 
-Note: If your local save files are not located at `C:\Users\[YOUR_WIN_USERNAME]\Documents\Respawn`, you will need to pass the path during initialization
+Note: If your local save files are not located at `C:\Users\[YOUR_WIN_USERNAME]\Documents\Respawn`, you will need to pass the path (with proper string escaping) during initialization
 
     require 'titanfall
-    t = Titanfall.new "C:\Storage\Other\Path\to\Respawn"
+    t = Titanfall.new "C:\\Storage\\Other\\Path\\to\\Respawn"
 
 ## Instance Methods
 
