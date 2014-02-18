@@ -1,10 +1,22 @@
 module Settings
 
+  def binding(key)
+    bindings_hash[key]
+  end
+
   def settings
     settings_hash
   end
 
   private
+
+  def bindings_hash
+    bind_rows.map { |x| x[5..-1] }.inject({}) do |hash, item|
+      key, value = item.split(' ', 2)
+      hash[key.tr!('"', '')] = value.tr!('"', '')
+      hash
+    end
+  end
 
   def settings_hash
     other_settings_rows.inject({}) do |hash, item|
