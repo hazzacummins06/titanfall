@@ -1,7 +1,7 @@
 module Settings
 
-  def binding(key)
-    bindings_hash[key]
+  def bindings
+    bindings_hash
   end
 
   def settings

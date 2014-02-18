@@ -11,7 +11,7 @@ describe Settings do
     end
 
     it "returns settings key bindings" do
-      expect(t.binding("SPACE")).to eql "+ability 3"
+      expect(t.bindings["SPACE"]).to eql "+ability 3"
     end
 
     it "returns settings configurations" do
