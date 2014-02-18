@@ -5,7 +5,7 @@ require 'titanfall/version'
 
 Gem::Specification.new do |spec|
   spec.name          = 'titanfall'
-  spec.version       = Titanfall::VERSION
+  spec.version       = Version::VERSION
   spec.date          = '2014-02-15'
   spec.authors       = ['Rex Feng']
   spec.email         = ['rexfeng@gmail.com']
