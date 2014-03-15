@@ -43,7 +43,7 @@ module Settings
   end
 
   def settings_cfg_file_path
-    "#{path}\\TitanfallBeta\\local\\settings.cfg"
+    "#{path}\\Titanfall\\local\\settings.cfg"
   end
 
 end

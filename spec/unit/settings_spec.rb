@@ -6,7 +6,7 @@ describe Settings do
     let(:t) { Titanfall.new }
 
     before :each do
-      test_settings_cfg_path = "#{File.dirname(__FILE__)}/../fixtures/Respawn/TitanfallBeta/local/settings.cfg"
+      test_settings_cfg_path = "#{File.dirname(__FILE__)}/../fixtures/Respawn/Titanfall/local/settings.cfg"
       allow_any_instance_of(Titanfall).to receive(:settings_cfg_file_path).and_return(test_settings_cfg_path)
     end
 
@@ -15,7 +15,7 @@ describe Settings do
     end
 
     it "returns settings configurations" do
-      expect(t.settings['m_sensitivity']).to eql "5"
+      expect(t.settings['m_sensitivity']).to eql "5.617949"
       expect(t.settings['password']). to eql ""
     end
   end

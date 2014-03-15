@@ -23,7 +23,7 @@ module VideoConfig
   end
 
   def videoconfig_txt_file_path
-    "#{path}\\TitanfallBeta\\local\\videoconfig.txt"
+    "#{path}\\Titanfall\\local\\videoconfig.txt"
   end
 
 end

@@ -20,7 +20,7 @@ module Profile
   end
 
   def profile_cfg_file_path
-    "#{path}\\TitanfallBeta\\profile\\profile.cfg"
+    "#{path}\\Titanfall\\profile\\profile.cfg"
   end
 
 end

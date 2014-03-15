@@ -1,6 +1,6 @@
 # Titanfall Ruby Gem
 
-[Titanfall](http://www.titanfall.com/) PC ([Origin](https://www.origin.com)) Ruby Gem - Version 0.0.1
+[Titanfall](http://www.titanfall.com/) PC ([Origin](https://www.origin.com)) Ruby Gem - Version 0.0.2
 
 This gem is not endorsed, certified or otherwise approved in any way by Respawn Entertainment or any of its affiliates.
 
